@@ -1,7 +1,7 @@
 import pafy
 
-def downloadvideo(url):
 
+def downloadvideo(url):
     video = pafy.new(url)
     res = video.getbest()
     res.download('/Python_Codes/')
