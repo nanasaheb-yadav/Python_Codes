@@ -1,6 +1,6 @@
 def findErrorNums(nums):
-    nums = sorted(nums)
 
+    nums = sorted(nums)
     presentSet = set(nums)
     actualSet = set([i for i in range(1, len(nums) + 1)])
 

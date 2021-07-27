@@ -9,7 +9,7 @@ Output should be: ["ab","cd","e_"]
 Say input is "abcd"
 Output should be: ["ab","cd"]
 """
-s = "abcdef"
+s = "abcdehj"
 
 s_lst = list(s)
 t = []

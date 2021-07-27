@@ -3,6 +3,7 @@
 Count letters in input strings
 """
 
+
 def counter(word):
 
     count = {}
