@@ -26,3 +26,7 @@ import pandas as pd
 df = pd.read_csv("test.txt", header='infer')
 print(df['b'])
 print(df['b'][1])
+
+
+line = open("test.txt").read()
+
