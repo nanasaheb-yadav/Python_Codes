@@ -9,12 +9,10 @@ def check_unique_chars(ip_str):
     for letter in ip_str:
         count[letter] = count.get(letter, 0) + 1
 
-    for key, val in count.items():
-        if val > 1:
-            return False
-        else:
-            pass
-    return True
+    if max(count.values()) > 1:
+        return False
+    else:
+        return True
 
 
 ip_string = "Welcome"
