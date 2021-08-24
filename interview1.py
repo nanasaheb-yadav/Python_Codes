@@ -9,5 +9,3 @@ df = pd.DataFrame(data)"""
 def length(str1):
     def wrapper():
         return len()
-@length
-def str():
