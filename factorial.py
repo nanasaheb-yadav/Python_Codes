@@ -11,10 +11,10 @@ def factorial(num):
     else:
         return num * factorial(num - 1)
 
+
 print(factorial(5))
 
-
 # Factorial using lambda function for recursion
-fact = (lambda n:1 if n==0 else n*fact(n-1))
+fact = (lambda n: 1 if n == 0 else n * fact(n - 1))
 
 print(fact(5))
