@@ -74,6 +74,3 @@ exp = "0-9a-zA-Z@a-zA-Z.com"
 for mail in email:
     print(re.match(exp, mail))
 """
-import requests
-
-data = requests.get
