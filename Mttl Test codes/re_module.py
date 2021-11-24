@@ -10,3 +10,7 @@ if re.findall(pattern2, mydata):
     mydata = re.sub(pattern2,'by ',mydata)
 
 print(mydata)
+
+"""OUTPUT: 
+Revolution by the country, for the country.
+"""
