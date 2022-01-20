@@ -11,6 +11,12 @@ input = s.lower().split(" ")
 
 lst = sorted(input)
 
+count = {}
+for letter in lst:
+    count[letter[0]] = f"{letter},{count.get(letter[0],letter)}"
+
+#print(count)
+
 dct = {}
 v =[]
 for i in lst:
@@ -20,9 +26,9 @@ for i in lst:
         dct[i[0]] = val1
     else:
         dct[i[0]]= i
-
+print(dct)
 dct1 = {}
-for k, v in dct.items():
+for k, v in count.items():
     v = list(dict.fromkeys(v.split(",")))
     dct1[k] =v
 
