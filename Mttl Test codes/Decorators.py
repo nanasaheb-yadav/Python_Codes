@@ -1,6 +1,7 @@
 def makeBold(fn):
     def wrapper():
         return f"<b> {fn()} </b>"
+
     return wrapper
 
 
