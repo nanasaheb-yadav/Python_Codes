@@ -1,6 +1,3 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
-
 ls = [5, 56, 2, 4, 8, 97, 2, 4, 34]
 ls1 = []
 
@@ -27,10 +24,6 @@ class Omniwyse:
 obj = Omniwyse(1, "Student1", "12th")
 obj.details()
 
-select
-roll, name
-from t1 # Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
 
 ls = [5,56,2,4,8,97,2,4,34]
 ls1 = []
