@@ -1,6 +1,7 @@
 import numpy as np
 
-#print(np.random.rand(100))
+print(np.array(range(100)))
+print(np.random.rand(100))
 
 # 1. count the occurrence of each value in a numpy array
 arr = np.array([0, 5, 5, 0, 2, 4, 3, 0, 0, 5, 4, 1, 9, 9])

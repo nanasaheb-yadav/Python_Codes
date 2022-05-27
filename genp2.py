@@ -15,7 +15,7 @@ count = {}
 for letter in lst:
     count[letter[0]] = f"{letter},{count.get(letter[0],letter)}"
 
-#print(count)
+print(count)
 
 dct = {}
 v =[]
