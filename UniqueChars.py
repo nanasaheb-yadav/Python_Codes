@@ -17,4 +17,6 @@ def check_unique_chars(ip_str):
 
 ip_string = "Welcome"
 
+print(len(ip_string) == len(set(ip_string)))
+
 print(check_unique_chars(ip_string))

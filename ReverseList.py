@@ -3,4 +3,4 @@ print(data_list[::-1])
 
 
 x = ['ab', 'cd']
-print(list(map(list, x)))
+print(list(map(lambda x: x+x, x)))

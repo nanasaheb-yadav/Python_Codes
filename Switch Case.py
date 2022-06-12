@@ -4,10 +4,10 @@ def case1():
 def switch(choice):
 
     switcher={
-        'Ram': case1(),
-        'Shiv':'Tuesday'
+        'A': case1(),
+        'B':'Tuesday'
     }
     print(switcher.get(choice,'Hi, user'))
 
 
-switch('Shiv')
+switch('A')
