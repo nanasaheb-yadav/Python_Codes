@@ -24,4 +24,10 @@ def valid(n1,n2)
             div, rem = divide(small=n2,large=n1)
             largeno = n2+div+rem
       return largeno
+
+4. what is set()?
+5. Data structures in python.
+6. which sql platforms used ?
+7. libraries used in python ?
+8. db libraries used ?
 """
