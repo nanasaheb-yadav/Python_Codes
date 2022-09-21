@@ -12,7 +12,7 @@ def divide(small,large):
 
     div = 0
     rem = 0
-            # div large by small without using any operators
+    # code here for div large by small without using any operators
     return (div,rem)
 
 def valid(n1,n2)
@@ -31,3 +31,4 @@ def valid(n1,n2)
 7. libraries used in python ?
 8. db libraries used ?
 """
+
