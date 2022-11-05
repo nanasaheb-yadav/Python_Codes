@@ -1,4 +1,4 @@
-s = "mango"
+"""s = "mango"
 ls = []
 for i in s:
 
@@ -21,4 +21,10 @@ for i, v in enumerate(lst):
         lst.pop(i)
         lst.insert(-1, v)
 
-print(lst)
+print(lst)"""
+
+import pandas as pd
+
+df = pd.read_excel(r"C:\Users\nanas\OneDrive\Desktop\Book1.xlsx")
+
+print(df)
